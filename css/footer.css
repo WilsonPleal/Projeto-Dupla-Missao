@@ -1,0 +1,42 @@
+#rodape{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50vh;
+    width: 100%;
+    background-color: #0a123d;
+    overflow-x: hidden;
+}
+img.zap{
+    display: flex;
+    width: 1.4rem;
+}
+nav p{
+    display: flex;
+    position: relative;
+    justify-content: end;
+    bottom: 18px;
+    left: 25px;
+    color: white;
+    text-decoration: underline;
+}
+.icones{
+    display: block;
+}
+.maps{
+    width: 7rem;
+}
+p{
+    color: white;
+}
+.copyright{
+    position: absolute;
+    bottom: 10px;      /* distância do fundo */
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: fit-content;
+    text-align: center;
+    color: white;
+}

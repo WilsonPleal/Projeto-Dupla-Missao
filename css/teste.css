@@ -1,0 +1,49 @@
+ <aside>
+
+            <a href="https://api.whatsapp.com/send/?phone=552732812486&text&type=phone_number&app_absent=0">
+            <img class="zap" src="/icons/whatsapp.webp" alt=""><p>(27) 3281 2486</p></a>
+            <img src="/icons/telephone-handle-silhouette.webp" alt=""><p>(27) 3228 1042</p>
+
+        </aside>
+
+        .copyright{
+    color: white;
+    display: flex;
+    position: absolute;
+    margin: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: 1rem;
+}
+.icones{
+    bottom: 80px;
+    display: flex;
+    position: relative;
+    left: 492px;
+    gap: 21px;
+    align-items: center;
+    color: white;
+
+}
+.icones img:hover{
+    filter: brightness(0.4);
+    color: #0a123d;
+
+}
+.icones img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 20px;
+    text-decoration: none;
+}
+aside .zap:hover:hover{
+    filter: brightness(0.4);
+}
+.icones p{
+    color: white;
+    position: relative;
+    left: 38px;
+    font-size: 18px;
+    text-decoration: underline;
+}
