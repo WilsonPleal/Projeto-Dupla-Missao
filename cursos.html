@@ -30,28 +30,32 @@
         </nav>
     </header>
 
-    <section class="cursoCalendario">
+    <button onclick="verOcultarCurso()">Ver Cursos</button>
+    <button onclick="verCalendarioCurso()">Ver Calendário</button>
+
+    <section class="cursoCalendario" id="cursoCalendario" style="display: none;">
 
          <nav class="grade-curso">
 
-            <h1>Nossos Cursos</h1>
+            <h1 class="nosso-curso">Nossos Cursos</h1>
+            
 
-            <ul>
+            <ul class="curso1">
                 <h3>Curso Formação</h3>
 
-                <li>Formação de vigilante</li>
+                <li><img src="/imagens/Seguran.webp" alt="">Formação de vigilante</li>
 
-                <ul>
+                <ul class="curso2">
                     <h3>Extensões</h3>
-                    <li>Escolta Armada</li>
-                    <li>transporte de valores</li>
-                    <li>segurança Pessoal Privado</li>
-                    <li>segurança de Grandes Eventos</li>
-                    
+                    <li><img src="/imagens/escolta.webp" alt="">Escolta Armada</li>
+                    <li><img src="/imagens/transValores.webp" alt="">transporte de valores</li>
+                    <li><img src="/imagens/SegPP.webp" alt="">segurança Pessoal Privado</li>
+                    <li><img src="/imagens/Segur.webp" alt="">segurança de Grandes Eventos</li>
+
                 </ul>
 
-                <ul>
-                    <h3>Reciclagens</h3>
+                <ul class="curso3">
+                    <h3 >Reciclagens</h3>
 
                     <li>Reciclagem Curso Formação</li>
                     <li>Reciclagem Escolta Armada</li>
@@ -60,7 +64,7 @@
                     
                 </ul>
 
-                <ul>
+                <ul class="curso4">
 
                     <h3>Cursos Relacionados</h3>
                     <li>Técnicas de Supervisão e Liderança</li>
@@ -76,11 +80,7 @@
         </nav>
 
 
-        <nav class="calendario-curso">
-
-            <h1>Calendário de Cursos</h1>
-
-        </nav>
+        
 
     </section>
 
@@ -113,6 +113,8 @@
 
     </footer>
 
+
+    <script src="/javascript/index.js"></script>
 </body>
 
 </html>
